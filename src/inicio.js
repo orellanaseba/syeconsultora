@@ -15,7 +15,7 @@ const pintarInicio = () => {
     </div>
 
     <div class="banner-img-container">
-        <img class="banner-img" src="/imagenes/miller1.png" alt="s&e banner imagen">
+        <img class="banner-img" src="./imagenes/miller1.png" alt="s&e banner imagen">
     </div>
 </div>
 
@@ -33,7 +33,7 @@ const pintarInicio = () => {
                 <li>Vecindario</li>
                 <li>Estacionamiento</li>
             </ul>
-            <img src="/imagenes/cordoba1.jpg" alt="imagen alquileres">
+            <img src="./imagenes/cordoba1.jpg" alt="imagen alquileres">
         </div>
         <div class="descripcion descripcion-2">
             <ul class="descripcion-list">
@@ -43,14 +43,14 @@ const pintarInicio = () => {
                 <li>Tamaño</li>
                 <li>Exteriores</li>
             </ul>
-            <img src="/imagenes/munro3.png" alt="imagen propiedades">
+            <img src="./imagenes/munro3.png" alt="imagen propiedades">
         </div>
     </div>
 </section>
 
 <section id="sobrenosotros" class="section-sobrenosotros">
     <div class="sobrenosotros-img-container">
-        <img class="sobrenosotros-img" src="/Diseño/kam-idris-_HqHX3LBN18-unsplash.jpg" alt="">
+        <img class="sobrenosotros-img" src="./Diseño/kam-idris-_HqHX3LBN18-unsplash.jpg" alt="">
     </div>
     <div class="sobrenosotros-texto-container">
         <div class="sobrenosotros-title">
@@ -83,7 +83,7 @@ const pintarInicio = () => {
 
 <footer class="footer">
         <div class="footer-logo">
-            <a href="index.html"><img class="logo-img" src="/imagenes/logo.png" alt="syeconsultora logo"></a>
+            <a href="index.html"><img class="logo-img" src="./imagenes/logo.png" alt="syeconsultora logo"></a>
         </div>
         <div class="servicios-footer-container">
             <ul class="footer-ul informacion-footer-ul">
