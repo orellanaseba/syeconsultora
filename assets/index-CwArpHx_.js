@@ -53,14 +53,14 @@
 </div>
 </div>`;const a=document.createElement("section");a.classList.add("section-propiedades");let i=0;f.forEach((e,o)=>{a.innerHTML+=`
     <div class="propiedades-img-container">
-    <img class="propiedades-img" img-index="${i}" src="/imagenes/${e.imagenes[0]}" alt="">
+    <img class="propiedades-img" img-index="${i}" src="./imagenes/${e.imagenes[0]}" alt="">
     <div class="imagenes-relacionadas">
         <div class="galeria-imagenes">
-            <img img-index="0" class="image-selected" src="/imagenes/${e.imagenes[0]}">
-            <img img-index="1" src="/imagenes/${e.imagenes[1]}">
-            <img img-index="2" src="/imagenes/${e.imagenes[2]}">
-            <img img-index="3" src="/imagenes/${e.imagenes[3]}">
-            <img img-index="4" src="/imagenes/${e.imagenes[4]}">
+            <img img-index="0" class="image-selected" src="./imagenes/${e.imagenes[0]}">
+            <img img-index="1" src="./imagenes/${e.imagenes[1]}">
+            <img img-index="2" src="./imagenes/${e.imagenes[2]}">
+            <img img-index="3" src="./imagenes/${e.imagenes[3]}">
+            <img img-index="4" src="./imagenes/${e.imagenes[4]}">
         </div>
     </div>
 </div>
@@ -126,7 +126,7 @@
     </div>
 `,l.appendChild(a),l.appendChild(n);const s=document.createElement("footer");s.classList.add("footer"),s.innerHTML=`
 <div class="footer-logo">
-    <a href="index.html"><img class="logo-img" src="/imagenes/logo.png" alt=""></a>
+    <a href="index.html"><img class="logo-img" src="./imagenes/logo.png" alt=""></a>
         </div>
         <div class="servicios-footer-container">
             <ul class="footer-ul informacion-footer-ul">
@@ -151,7 +151,7 @@
     </div>
 
     <div class="banner-img-container">
-        <img class="banner-img" src="/imagenes/miller1.png" alt="s&e banner imagen">
+        <img class="banner-img" src="./imagenes/miller1.png" alt="s&e banner imagen">
     </div>
 </div>
 
@@ -169,7 +169,7 @@
                 <li>Vecindario</li>
                 <li>Estacionamiento</li>
             </ul>
-            <img src="/imagenes/cordoba1.jpg" alt="imagen alquileres">
+            <img src="./imagenes/cordoba1.jpg" alt="imagen alquileres">
         </div>
         <div class="descripcion descripcion-2">
             <ul class="descripcion-list">
@@ -179,14 +179,14 @@
                 <li>Tamaño</li>
                 <li>Exteriores</li>
             </ul>
-            <img src="/imagenes/munro3.png" alt="imagen propiedades">
+            <img src="./imagenes/munro3.png" alt="imagen propiedades">
         </div>
     </div>
 </section>
 
 <section id="sobrenosotros" class="section-sobrenosotros">
     <div class="sobrenosotros-img-container">
-        <img class="sobrenosotros-img" src="/Diseño/kam-idris-_HqHX3LBN18-unsplash.jpg" alt="">
+        <img class="sobrenosotros-img" src="./Diseño/kam-idris-_HqHX3LBN18-unsplash.jpg" alt="">
     </div>
     <div class="sobrenosotros-texto-container">
         <div class="sobrenosotros-title">
@@ -219,7 +219,7 @@
 
 <footer class="footer">
         <div class="footer-logo">
-            <a href="index.html"><img class="logo-img" src="/imagenes/logo.png" alt="syeconsultora logo"></a>
+            <a href="index.html"><img class="logo-img" src="./imagenes/logo.png" alt="syeconsultora logo"></a>
         </div>
         <div class="servicios-footer-container">
             <ul class="footer-ul informacion-footer-ul">
@@ -268,14 +268,14 @@
 </div>
 </div>`;const i=document.createElement("section");i.classList.add("section-alquileres");let n=0;C.forEach((o,r)=>{i.innerHTML+=`
     <div class="propiedades-img-container">
-    <img class="propiedades-img" img-index="${n}" src="/imagenes/${o.imagenes[0]}" alt="">
+    <img class="propiedades-img" img-index="${n}" src="./imagenes/${o.imagenes[0]}" alt="">
     <div class="imagenes-relacionadas">
         <div class="galeria-imagenes">
-            <img img-index="0" class="image-selected" src="/imagenes/${o.imagenes[0]}">
-            <img img-index="1" src="/imagenes/${o.imagenes[1]}">
-            <img img-index="2" src="/imagenes/${o.imagenes[2]}">
-            <img img-index="3" src="/imagenes/${o.imagenes[3]}">
-            <img img-index="4" src="/imagenes/${o.imagenes[4]}">
+            <img img-index="0" class="image-selected" src="./imagenes/${o.imagenes[0]}">
+            <img img-index="1" src="./imagenes/${o.imagenes[1]}">
+            <img img-index="2" src="./imagenes/${o.imagenes[2]}">
+            <img img-index="3" src="./imagenes/${o.imagenes[3]}">
+            <img img-index="4" src="./imagenes/${o.imagenes[4]}">
         </div>
     </div>
 </div>
@@ -321,7 +321,7 @@
     </div>
 `,a.appendChild(i),a.appendChild(s);const e=document.createElement("footer");e.classList.add("footer"),e.innerHTML=`
 <div class="footer-logo">
-    <a href="index.html"><img class="logo-img" src="/imagenes/logo.png" alt=""></a>
+    <a href="index.html"><img class="logo-img" src="./imagenes/logo.png" alt=""></a>
         </div>
         <div class="servicios-footer-container">
             <ul class="footer-ul informacion-footer-ul">
