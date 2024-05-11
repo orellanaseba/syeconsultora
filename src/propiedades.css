@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    margin-top: -70px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.logo-container {
+    display: flex;
+    position: relative;
+    left: 100px;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #1D1D1D;
+}
+
+.nav {
+    width: 50%;
+}
+
+.ul-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+}
+
+.li-a.selected {
+    color: #1e3ad4;
+}
+
+.li-a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1D1D1D;
+}
+
+.propiedades-banner {
+    background-color: #FDF6E9;
+    height: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.propiedades-banner-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.propiedades-banner-text-container span {
+    color: #EC9706;
+    font-weight: 500;
+}
+
+.propiedades-banner-text-container h1 {
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+
+.propiedades-banner-text-container p {
+    padding: 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.section-propiedades {
+    margin-top: 60px;
+    min-height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+
+.propiedades-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    width: 90%;
+    max-height: 600px;
+}
+
+.propiedades-img-container img {
+    width: 85%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.propiedades-texto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 50px;
+}
+
+.propiedades-title {
+    margin-bottom: 10px;
+}
+
+.propiedades-title p {
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.propiedades-texto-container p {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.propiedades-descripcion {
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.propiedades-texto-container li {
+    padding: 5px;
+    list-style: none;
+}
+
+.precio-propiedades-span {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.datos {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    overflow: auto;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.datos li {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #1D1D1D
+}
+
+.varios-li {
+    list-style: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.datos-container {
+    max-height: 30%;
+}
+
+.datos-container .datos-title {
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: underline;
+    list-style: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.imagenes-relacionadas {
+    width: 100px;
+    height: 60px;
+}
+
+.galeria-imagenes {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-around;
+    align-items: center;
+    left: 10px;
+    height: 80%;
+    bottom: 200px;
+}
+
+.galeria-imagenes img {
+    width: 50px;
+    min-height: 50px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.galeria-imagenes .image-selected {
+    border: 2px solid #1e3ad4;
+}
+
+.galeria-contenedor {
+    height: 100%;
+    width: 100%;
+    background-color: #010101c4;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1000;
+    display: none;
+}
+
+.galeria-contenedor.abrir-galeria {
+    display: block;
+}
+
+.galeria-contenedor.cerrar-galeria {
+    display: none;
+}
+
+.btn-cerrar-galeria {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 30px;
+    padding: 2px;
+    z-index: 1000;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #333030a2;
+}
+
+.galeria-imagen-contenedor {
+    width: 50%;
+    height: 75%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: 100px auto;
+}
+
+.galeria-img {
+    width: 100%;
+    height: 100%;
+}

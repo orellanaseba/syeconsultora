@@ -1,0 +1,103 @@
+.section-alquileres {
+    margin-top: 60px;
+    min-height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+
+.alquileres-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    width: 90%;
+    max-height: 600px;
+}
+
+.alquileres-img-container img {
+    width: 85%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.alquileres-texto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 50px;
+}
+
+.alquileres-title {
+    margin-bottom: 10px;
+}
+
+.alquileres-title p {
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.alquileres-texto-container p {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.alquileres-descripcion {
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.alquileres-texto-container li {
+    padding: 5px;
+    list-style: none;
+}
+
+.precio-alquileres-span {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.datos {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    overflow: auto;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.datos li {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #1D1D1D
+}
+
+.varios-li {
+    list-style: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.datos-container {
+    max-height: 30%;
+}
+
+.datos-container .datos-title {
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: underline;
+    list-style: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.modal-leyes-container {
+    z-index: 1000;
+}
