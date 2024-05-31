@@ -1,4 +1,4 @@
-(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))l(n);new MutationObserver(n=>{for(const e of n)if(e.type==="childList")for(const t of e.addedNodes)t.tagName==="LINK"&&t.rel==="modulepreload"&&l(t)}).observe(document,{childList:!0,subtree:!0});function s(n){const e={};return n.integrity&&(e.integrity=n.integrity),n.referrerPolicy&&(e.referrerPolicy=n.referrerPolicy),n.crossOrigin==="use-credentials"?e.credentials="include":n.crossOrigin==="anonymous"?e.credentials="omit":e.credentials="same-origin",e}function l(n){if(n.ep)return;n.ep=!0;const e=s(n);fetch(n.href,e)}})();const i=[{nombre:"Aizpurua 3200",imagenes:["aizpurua1.png","aizpurua2.png","aizpurua3.png","aizpurua4.png","aizpurua5.png","aizpurua6.png","aizpurua7.png","aizpurua-map.png"],precio:"155.000u$$",descripcion:`Esta nuevo, hermoso apartamento de tres ambientes en dupla.
+(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))t(n);new MutationObserver(n=>{for(const s of n)if(s.type==="childList")for(const c of s.addedNodes)c.tagName==="LINK"&&c.rel==="modulepreload"&&t(c)}).observe(document,{childList:!0,subtree:!0});function l(n){const s={};return n.integrity&&(s.integrity=n.integrity),n.referrerPolicy&&(s.referrerPolicy=n.referrerPolicy),n.crossOrigin==="use-credentials"?s.credentials="include":n.crossOrigin==="anonymous"?s.credentials="omit":s.credentials="same-origin",s}function t(n){if(n.ep)return;n.ep=!0;const s=l(n);fetch(n.href,s)}})();const e=[{nombre:"Aizpurua 3200",imagenes:["aizpurua1.png","aizpurua2.png","aizpurua3.png","aizpurua4.png","aizpurua5.png","aizpurua6.png","aizpurua7.png","aizpurua-map.png"],precio:"155.000u$$",descripcion:`Esta nuevo, hermoso apartamento de tres ambientes en dupla.
         <li>°1Planta: Cocina, living, patio, baños completo y jardín</li>
         <li>°2Planta: dos dormitorios los dos trae placard</li>
         `,datosGenerales:[{antiguedad:"a estrenar",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"34m2",superficieDescubierta:"",jardinFrente:"",jardinFondo:"7x4",patio:"2.90x4",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"Aizpurua 3200",tipoPropiedad:"apartamento"}],datosAmbiente:[{hall:"",living:"5x4",cocina:"cocina y comedor 2.80x4",escritorio:"",toillete:"",baño:"completo",dormitorio:"2.60x3.50, 3x3",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"Villa Urquiza",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Balbin 3100",imagenes:["balbin1.png","balbin2.png","balbin3.png","balbin4.png","balbin5.png","balbin6.png","balbin7.png","balbin-map.png"],precio:"125.000u$$",descripcion:`Excelentes condiciones estas en muy buenos estados un apartamento de 4 piso.
@@ -36,10 +36,7 @@
         Chochera fija descubierta muy cómoda.        
         `,datosGenerales:[{antiguedad:"",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"si",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Lote terreno",imagenes:["","","","","","","",""],precio:"Consultar",descripcion:`Está ubicado en un buen sector Av. Congreso y Mariano Acha.       
         `,datosGenerales:[{antiguedad:"",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"si",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Manzanares 3900",imagenes:["manzanares1.png","manzanares2.png","manzanares3.png","manzanares4.png","manzanares5.png","","",""],precio:"Consultar",descripcion:`Excelente dos ambientes muy luminoso amplio balcón, edificio nuevo, excelente ubicación, cerca de la estación Saavedra, Dot, parque Saavedra y general paz y panamericana.     
-        `,datosGenerales:[{antiguedad:"a estrenar",estados:"excelente",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"40m2",superficieDescubierta:"6m2",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"si",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"Manzanares Piso 5",tipoPropiedad:"apartamento"}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"completo",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"Saavedra",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Arias 4800",imagenes:["arias1.png","arias2.png","arias3.png","arias4.png","arias5.png","",""],precio:"Consultar",descripcion:`Tenemos para mostrarle un PH de muy buen estado.
-        Te cuento un poco más del PH es un alquiler témpora hasta 3 persona, muy luminador, con patio, baños completos, muy buen lugar y está cerca al parque sarmiento.
-            
-        `,datosGenerales:[{antiguedad:"10 años",estados:"bueno",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"32m",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"3x3",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"Arias",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"completo",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"Saavedra",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:"Alquiler temporal de ph"}]},{nombre:"Tras las Sierras",imagenes:["sierras1.png","sierras2.png","sierras3.png","sierras4.png","sierras5.png","",""],precio:"Consultar",descripcion:`Es un lugar hermoso cercas, centro de Mina Clavero se encuentra seña del 50% del monto, tiene ríos cercas.
+        `,datosGenerales:[{antiguedad:"a estrenar",estados:"excelente",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"40m2",superficieDescubierta:"6m2",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"si",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"Manzanares Piso 5",tipoPropiedad:"apartamento"}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"completo",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"Saavedra",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Tras las Sierras",imagenes:["sierras1.png","sierras2.png","sierras3.png","sierras4.png","sierras5.png","",""],precio:"Consultar",descripcion:`Es un lugar hermoso cercas, centro de Mina Clavero se encuentra seña del 50% del monto, tiene ríos cercas.
         Cuentas con una cama matrimonial, un sofá cama, agua caliente, con termo individual, sabanas y acolchados, vajilla completa, ventilador, cochea y parrilla.
         
             
@@ -49,15 +46,13 @@
         `,datosGenerales:[{antiguedad:"10 años",estados:"muy bueno",categoria:"",frente:"",techo:"",lote:"70x40",superficieCubierta:"150m2, total:2.800m2",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"para 4 autos",terraza:"",galeria:"",quincho:"si",parrilla:"si",pileta:"si",orientacion:"Quita",tipoPropiedad:"casa"}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"completo",dormitorio:"2, 3 ambientes",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"ruta 25, Km 4",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Construcción en seco",imagenes:["seco1.png","seco2.png","seco3.png","seco4.png","seco5.png","",""],precio:"Consultar",descripcion:`Realizamos propiedad en seco en menos de 90 días consulte los modelos, valores y facilidades.        
         `,datosGenerales:[{antiguedad:"10 años",estados:"muy bueno",categoria:"",frente:"",techo:"",lote:"70x40",superficieCubierta:"150m2, total:2.800m2",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"para 4 autos",terraza:"",galeria:"",quincho:"si",parrilla:"si",pileta:"si",orientacion:"Quita",tipoPropiedad:"casa"}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"completo",dormitorio:"2, 3 ambientes",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"ruta 25, Km 4",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Ayacucho y Av. Corrientes",imagenes:["","","","","","",""],precio:"Consultar",descripcion:`Tenemos para ofrecer una oficina en el centro muy iluminada, un despacho, sala de reuniones, ambiente para despacho o archivero, recepción divisiones de blindex también cuenta con una cocina 2x1, hall 7x5 y la superficie cubierta en 28m2.          
         `,datosGenerales:[{antiguedad:"",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Av. Ricardo Balbín 3100",imagenes:["avbalbin1.png","avbalbin2.png","avbalbin3.png","avbalbin4.png","avbalbin5.png"],precio:"Consultar",descripcion:`Tenemos para ofrecer una oficina en el centro muy iluminada, un despacho, sala de reuniones, ambiente para despacho o archivero, recepción divisiones de blindex también cuenta con una cocina 2x1, hall 7x5 y la superficie cubierta en 28m2.          
-        `,datosGenerales:[{antiguedad:"",estados:"excelente",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"90m2",superficieDescubierta:"8m2",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"frente Balbín 3100",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"si",baño:"completo",dormitorio:"3, 4 ambientes",balcon:"si",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"Coghlan",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Balbín 2800",imagenes:["balbin2800-1.png","balbin2800-2.png","balbin2800-3.png","balbin2800-4.png","balbin2800-5.png"],precio:"Consultar",descripcion:`Tenemos para ofrecer dos ambientes que estas ubicando en una buena zona muy cerca a lo que es el parque Saavedra, barrio Coghlan.         
-        `,datosGenerales:[{antiguedad:"",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Machain y Balbín",imagenes:["machain1.png","machain2.png","machain3.png","machain4.png","machain5.png"],precio:"Consultar",descripcion:`Es unos dos ambientes en una zona tranquila cerca de parque Saavedra.
+        `,datosGenerales:[{antiguedad:"",estados:"excelente",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"90m2",superficieDescubierta:"8m2",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"frente Balbín 3100",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"si",baño:"completo",dormitorio:"3, 4 ambientes",balcon:"si",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"Coghlan",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Machain y Balbín",imagenes:["machain1.png","machain2.png","machain3.png","machain4.png","machain5.png"],precio:"Consultar",descripcion:`Es unos dos ambientes en una zona tranquila cerca de parque Saavedra.
         Te cuento un poco mas sobre ella cuenta con un espacio grande en lo que es(el living, comedor y cocina), baños completos, cuenta con caldera, con parrillas,  aires acondicionados, balcón y un dormitorio.      
         `,datosGenerales:[{antiguedad:"",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Vidal 2060",imagenes:["","","","",""],precio:"Consultar",descripcion:`Entre Juramento y Echeverría contamos con dos cocheras fijas muy buenas zona en el barrio Belgrano. 
         `,datosGenerales:[{antiguedad:"",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Bauness 2200",imagenes:["","","","",""],precio:"Consultar",descripcion:`Excelente 4 ambiente en el barrio villa Urquiza.
         Te cuento un poco mas sobre lo que tiene y lo que esta a los alrededores cuenta con cochera, dos baños, cocina, lavadero integrado, tres habitaciones, living, comedor y balcón.
         Frente a plaza Etcheverria.         
-        `,datosGenerales:[{antiguedad:"",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Lomas del Mirador",imagenes:["","","","",""],precio:"Consultar",descripcion:`Te cuento un poco más de lo hermoso alquiler de dos ambientes que tenemos para ofrecer con balcón y sin expresa, frente la plaza del cañón y hermosa zona para vivir.    
-        `,datosGenerales:[{antiguedad:"",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]}],d=()=>{const r=document.querySelector(".leyes"),o=document.querySelector(".modal-leyes-container");r.addEventListener("click",()=>{o.classList.add("modal-open")}),z(o)},z=r=>{document.querySelector(".btn-closemodal").addEventListener("click",()=>{r.classList.remove("modal-open")})},m=()=>{const r=document.querySelectorAll(".galeria-imagenes img"),o=document.querySelector(".galeria-contenedor"),s=document.querySelector(".galeria-img");r.forEach(n=>{n.addEventListener("click",e=>{let t=e.target.getAttribute("src");o.classList.remove("cerrar-galeria"),o.classList.add("abrir-galeria"),s.src=t,console.log(e.target)})}),document.querySelector(".btn-cerrar-galeria").addEventListener("click",()=>{o.classList.add("cerrar-galeria"),o.classList.remove("abrir-galeria")})},c=document.querySelector(".contenido"),E=()=>{c.innerHTML="",c.innerHTML=`
+        `,datosGenerales:[{antiguedad:"",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]}],g=()=>{const r=document.querySelector(".leyes"),o=document.querySelector(".modal-leyes-container");r.addEventListener("click",()=>{o.classList.add("modal-open")}),j(o)},j=r=>{document.querySelector(".btn-closemodal").addEventListener("click",()=>{r.classList.remove("modal-open")})},u=()=>{const r=document.querySelectorAll(".galeria-imagenes img"),o=document.querySelector(".galeria-contenedor"),l=document.querySelector(".galeria-img");r.forEach(n=>{n.addEventListener("click",s=>{let c=s.target.getAttribute("src");o.classList.remove("cerrar-galeria"),o.classList.add("abrir-galeria"),l.src=c,console.log(s.target)})}),document.querySelector(".btn-cerrar-galeria").addEventListener("click",()=>{o.classList.add("cerrar-galeria"),o.classList.remove("abrir-galeria")})},d=document.querySelector(".contenido"),G=()=>{d.innerHTML="",d.innerHTML=`
 
 <div class="modal-leyes-container">
         <i class="btn-closemodal fas fa-close"></i>
@@ -85,7 +80,7 @@
 <div class="propiedades-banner-text-container">
         <h1>Propiedades</h1>
 </div>
-</div>`;const r=document.createElement("section");r.classList.add("section-propiedades");let o=0;i.forEach((a,O)=>{r.innerHTML+=`
+</div>`;const r=document.createElement("section");r.classList.add("section-propiedades");let o=0;e.forEach((a,R)=>{r.innerHTML+=`
     <div class="propiedades-img-container">
     <img class="propiedades-img" img-index="${o}" src="./imagenes/${a.imagenes[0]}" alt="">
     <div class="imagenes-relacionadas">
@@ -153,12 +148,12 @@
     <p>Agradecemos su elección, esperamos respuestas suyas.</p>
     </div>
     </div>
-    `,o++});let s=document.createElement("div");s.classList.add("galeria-contenedor"),s.innerHTML=`
+    `,o++});let l=document.createElement("div");l.classList.add("galeria-contenedor"),l.innerHTML=`
     <div class="galeria-imagen-contenedor">
         <i class="btn-cerrar-galeria fas fa-close"></i>
         <img class="galeria-img" src="" >
     </div>
-`,c.appendChild(r),c.appendChild(s);const l=document.createElement("footer");l.classList.add("footer"),l.innerHTML=`
+`,d.appendChild(r),d.appendChild(l);const t=document.createElement("footer");t.classList.add("footer"),t.innerHTML=`
 <div class="footer-logo">
     <a href="index.html"><img class="logo-img" src="./imagenes/logo.png" alt=""></a>
         </div>
@@ -176,7 +171,7 @@
                 <li>11-3056-1228 /</li>
                 <li>15-6468-1227</li>
             </ul>
-        </div>`,c.appendChild(l);const n=document.querySelectorAll(".datos")[8];n.innerHTML=`
+        </div>`,d.appendChild(t);const n=document.querySelectorAll(".datos")[8];n.innerHTML=`
 <ul class="datos-container datos-del-ambiente">
     <li class="datos-title">Datos del terreno</li>
     <li><strong>Superficie: </strong>247m2</li>
@@ -189,66 +184,66 @@
     <li><strong>Valor ventas: </strong>1.100.000u$$</li>
     <li><strong>Orientación: </strong>José Hernández 1400</li>
 </ul>
-`;const e=document.querySelectorAll(".galeria-imagenes")[3];e.innerHTML=`
-    <img img-index="0" class="image-selected" src="./imagenes/${i[3].imagenes[0]}">
-    <img img-index="1" src="./imagenes/${i[3].imagenes[0]}">
-    <img img-index="2" src="./imagenes/${i[3].imagenes[1]}">
-    <img img-index="3" src="./imagenes/${i[3].imagenes[2]}">
-    <img img-index="4" src="./imagenes/${i[3].imagenes[3]}">
-    <img img-index="4" src="./imagenes/${i[3].imagenes[4]}">
-    <img img-index="4" src="./imagenes/${i[3].imagenes[5]}">
-    <img img-index="4" src="./imagenes/${i[3].imagenes[6]}">
-    <img img-index="4" src="./imagenes/${i[3].imagenes[7]}">
-    <img img-index="4" src="./imagenes/${i[3].imagenes[8]}">
-`;const t=document.querySelectorAll(".galeria-imagenes")[4];t.innerHTML=`
-<img img-index="0" class="image-selected" src="./imagenes/${i[4].imagenes[0]}">
-    <img img-index="1" src="./imagenes/${i[4].imagenes[0]}">
-    <img img-index="2" src="./imagenes/${i[4].imagenes[1]}">
-    <img img-index="3" src="./imagenes/${i[4].imagenes[2]}">
-    <img img-index="4" src="./imagenes/${i[4].imagenes[3]}">
-    <img img-index="5" src="./imagenes/${i[4].imagenes[4]}">
-    <img img-index="6" src="./imagenes/${i[4].imagenes[5]}">
-    <img img-index="7" src="./imagenes/${i[4].imagenes[6]}">
-    <img img-index="8" src="./imagenes/${i[4].imagenes[7]}">
-    <img img-index="9" src="./imagenes/${i[4].imagenes[8]}">
-    <img img-index="10" src="./imagenes/${i[4].imagenes[9]}">
-    <img img-index="11" src="./imagenes/${i[4].imagenes[10]}">
-    <img img-index="12" src="./imagenes/${i[4].imagenes[11]}">
-    <img img-index="13" src="./imagenes/${i[4].imagenes[12]}">
-    <img img-index="14" src="./imagenes/${i[4].imagenes[13]}">
-    <img img-index="15" src="./imagenes/${i[4].imagenes[14]}">
-    <img img-index="16" src="./imagenes/${i[4].imagenes[15]}">
-    <img img-index="17" src="./imagenes/${i[4].imagenes[16]}">
-    <img img-index="18" src="./imagenes/${i[4].imagenes[17]}">
-`;const u=document.querySelectorAll(".galeria-imagenes")[10];u.innerHTML=`
-<img img-index="0" class="image-selected" src="./imagenes/${i[10].imagenes[0]}">
-    <img img-index="1" src="./imagenes/${i[10].imagenes[1]}">
-    <img img-index="2" src="./imagenes/${i[10].imagenes[2]}">
-    <img img-index="3" src="./imagenes/${i[10].imagenes[3]}">
-    <img img-index="4" src="./imagenes/${i[10].imagenes[4]}">
-    <img img-index="5" src="./imagenes/${i[10].imagenes[5]}">
-    <img img-index="6" src="./imagenes/${i[10].imagenes[6]}">
-    <img img-index="7" src="./imagenes/${i[10].imagenes[7]}">
-    <img img-index="8" src="./imagenes/${i[10].imagenes[8]}">
-    <img img-index="9" src="./imagenes/${i[10].imagenes[9]}">
-    <img img-index="10" src="./imagenes/${i[10].imagenes[10]}">
-    <img img-index="11" src="./imagenes/${i[10].imagenes[11]}">
-    <img img-index="12" src="./imagenes/${i[10].imagenes[12]}">
-    <img img-index="13" src="./imagenes/${i[10].imagenes[13]}">
-    <img img-index="14" src="./imagenes/${i[10].imagenes[14]}">
-`;const b=document.querySelectorAll(".galeria-imagenes")[1];b.innerHTML=`
-<img img-index="0" class="image-selected" src="./imagenes/${i[1].imagenes[0]}">
-    <img img-index="1" src="./imagenes/${i[1].imagenes[1]}">
-    <img img-index="2" src="./imagenes/${i[1].imagenes[2]}">
-    <img img-index="3" src="./imagenes/${i[1].imagenes[3]}">
-    <img img-index="4" src="./imagenes/${i[1].imagenes[4]}">
-    <img img-index="5" src="./imagenes/${i[1].imagenes[5]}">
-    <img img-index="6" src="./imagenes/${i[1].imagenes[6]}">
-    <img img-index="6" src="./imagenes/${i[1].imagenes[7]}">
-`;const f=document.querySelectorAll(".datos")[18],v=document.querySelectorAll(".propiedades-img")[18],y=document.querySelectorAll(".galeria-imagenes")[18];v.src="./imagenes/nodisponible.png",f.style.display="none",y.innerHTML="";const h=document.querySelectorAll(".datos")[20];h.style.display="none";const A=document.querySelectorAll(".datos")[21];A.style.display="none";const x=document.querySelectorAll(".datos")[22];document.querySelectorAll(".galeria-imagenes")[22].innerHTML="",document.querySelectorAll(".propiedades-img")[22].src="./imagenes/nodisponible.png",x.style.display="none";const $=document.querySelectorAll(".datos")[23];document.querySelectorAll(".galeria-imagenes")[23].innerHTML="",document.querySelectorAll(".propiedades-img")[23].src="./imagenes/nodisponible.png",$.style.display="none";const C=document.querySelectorAll(".datos")[24];document.querySelectorAll(".galeria-imagenes")[24].innerHTML="",document.querySelectorAll(".propiedades-img")[24].src="./imagenes/nodisponible.png",C.style.display="none",document.querySelectorAll(".propiedades-img")[7].src="./imagenes/nodisponible.png",document.querySelectorAll(".galeria-imagenes")[7].innerHTML="";const S=document.querySelectorAll(".propiedades-img")[8],q=document.querySelectorAll(".galeria-imagenes")[8];q.innerHTML="",S.src="./imagenes/josehernandez1.png";const P=document.querySelectorAll(".propiedades-img")[11];P.src="./imagenes/saavedra1.png";const L=document.querySelectorAll(".galeria-imagenes")[11],j=document.querySelectorAll(".datos")[11];L.innerHTML="",j.style.display="none",document.querySelectorAll(".propiedades-img")[12].src="./imagenes/congreso1.png",document.querySelectorAll(".galeria-imagenes")[12].innerHTML="";const g=document.querySelectorAll(".datos")[12];g.style.display="none",g.innerHTML="";const G=document.querySelectorAll(".datos")[17];G.style.display="none",d(),m()};document.querySelector(".contenido");const F=[{nombre:"Arias 4800",imagenes:["arias1.png","arias2.png","arias3.png","arias4.png","arias5.png","",""],precio:"Consultar",descripcion:`Tenemos para mostrarle un PH de muy buen estado.
+`;const s=document.querySelectorAll(".galeria-imagenes")[3];s.innerHTML=`
+    <img img-index="0" class="image-selected" src="./imagenes/${e[3].imagenes[0]}">
+    <img img-index="2" src="./imagenes/${e[3].imagenes[1]}">
+    <img img-index="3" src="./imagenes/${e[3].imagenes[2]}">
+    <img img-index="4" src="./imagenes/${e[3].imagenes[3]}">
+    <img img-index="4" src="./imagenes/${e[3].imagenes[4]}">
+    <img img-index="4" src="./imagenes/${e[3].imagenes[5]}">
+    <img img-index="4" src="./imagenes/${e[3].imagenes[6]}">
+    <img img-index="4" src="./imagenes/${e[3].imagenes[7]}">
+    <img img-index="4" src="./imagenes/${e[3].imagenes[8]}">
+`;const c=document.querySelectorAll(".galeria-imagenes")[4];c.innerHTML=`
+<img img-index="0" class="image-selected" src="./imagenes/${e[4].imagenes[0]}">
+    <img img-index="2" src="./imagenes/${e[4].imagenes[1]}">
+    <img img-index="3" src="./imagenes/${e[4].imagenes[2]}">
+    <img img-index="4" src="./imagenes/${e[4].imagenes[3]}">
+    <img img-index="5" src="./imagenes/${e[4].imagenes[4]}">
+    <img img-index="6" src="./imagenes/${e[4].imagenes[5]}">
+    <img img-index="7" src="./imagenes/${e[4].imagenes[6]}">
+    <img img-index="8" src="./imagenes/${e[4].imagenes[7]}">
+    <img img-index="9" src="./imagenes/${e[4].imagenes[8]}">
+    <img img-index="10" src="./imagenes/${e[4].imagenes[9]}">
+    <img img-index="11" src="./imagenes/${e[4].imagenes[10]}">
+    <img img-index="12" src="./imagenes/${e[4].imagenes[11]}">
+    <img img-index="13" src="./imagenes/${e[4].imagenes[12]}">
+    <img img-index="14" src="./imagenes/${e[4].imagenes[13]}">
+    <img img-index="15" src="./imagenes/${e[4].imagenes[14]}">
+    <img img-index="16" src="./imagenes/${e[4].imagenes[15]}">
+    <img img-index="17" src="./imagenes/${e[4].imagenes[16]}">
+    <img img-index="18" src="./imagenes/${e[4].imagenes[17]}">
+`;const i=document.querySelectorAll(".galeria-imagenes")[10];i.innerHTML=`
+<img img-index="0" class="image-selected" src="./imagenes/${e[10].imagenes[0]}">
+    <img img-index="1" src="./imagenes/${e[10].imagenes[1]}">
+    <img img-index="2" src="./imagenes/${e[10].imagenes[2]}">
+    <img img-index="3" src="./imagenes/${e[10].imagenes[3]}">
+    <img img-index="4" src="./imagenes/${e[10].imagenes[4]}">
+    <img img-index="5" src="./imagenes/${e[10].imagenes[5]}">
+    <img img-index="6" src="./imagenes/${e[10].imagenes[6]}">
+    <img img-index="7" src="./imagenes/${e[10].imagenes[7]}">
+    <img img-index="8" src="./imagenes/${e[10].imagenes[8]}">
+    <img img-index="9" src="./imagenes/${e[10].imagenes[9]}">
+    <img img-index="10" src="./imagenes/${e[10].imagenes[10]}">
+    <img img-index="11" src="./imagenes/${e[10].imagenes[11]}">
+    <img img-index="12" src="./imagenes/${e[10].imagenes[12]}">
+    <img img-index="13" src="./imagenes/${e[10].imagenes[13]}">
+    <img img-index="14" src="./imagenes/${e[10].imagenes[14]}">
+`;const m=document.querySelectorAll(".galeria-imagenes")[1];m.innerHTML=`
+<img img-index="0" class="image-selected" src="./imagenes/${e[1].imagenes[0]}">
+    <img img-index="1" src="./imagenes/${e[1].imagenes[1]}">
+    <img img-index="2" src="./imagenes/${e[1].imagenes[2]}">
+    <img img-index="3" src="./imagenes/${e[1].imagenes[3]}">
+    <img img-index="4" src="./imagenes/${e[1].imagenes[4]}">
+    <img img-index="5" src="./imagenes/${e[1].imagenes[5]}">
+    <img img-index="6" src="./imagenes/${e[1].imagenes[6]}">
+    <img img-index="6" src="./imagenes/${e[1].imagenes[7]}">
+`;const f=document.querySelectorAll(".datos")[17],v=document.querySelectorAll(".propiedades-img")[17],y=document.querySelectorAll(".galeria-imagenes")[17];v.src="./imagenes/nodisponible.png",f.style.display="none",y.innerHTML="";const h=document.querySelectorAll(".datos")[21];h.style.display="none";const A=document.querySelectorAll(".datos")[20];document.querySelectorAll(".galeria-imagenes")[20].innerHTML="",document.querySelectorAll(".propiedades-img")[20].src="./imagenes/nodisponible.png",A.style.display="none";const x=document.querySelectorAll(".datos")[21];document.querySelectorAll(".galeria-imagenes")[21].innerHTML="",document.querySelectorAll(".propiedades-img")[21].src="./imagenes/nodisponible.png",x.style.display="none",document.querySelectorAll(".propiedades-img")[7].src="./imagenes/nodisponible.png",document.querySelectorAll(".galeria-imagenes")[7].innerHTML="";const $=document.querySelectorAll(".propiedades-img")[8],C=document.querySelectorAll(".galeria-imagenes")[8];C.innerHTML="",$.src="./imagenes/josehernandez1.png";const S=document.querySelectorAll(".propiedades-img")[11];S.src="./imagenes/saavedra1.png";const q=document.querySelectorAll(".galeria-imagenes")[11],P=document.querySelectorAll(".datos")[11];q.innerHTML="",P.style.display="none",document.querySelectorAll(".propiedades-img")[12].src="./imagenes/congreso1.png",document.querySelectorAll(".galeria-imagenes")[12].innerHTML="";const p=document.querySelectorAll(".datos")[12];p.style.display="none",p.innerHTML="";const L=document.querySelectorAll(".datos")[17];L.style.display="none",g(),u()};document.querySelector(".contenido");const z=[{nombre:"Arias 4800",imagenes:["arias1.png","arias2.png","arias3.png","arias4.png","arias5.png","",""],precio:"Consultar",descripcion:`Tenemos para mostrarle un PH de muy buen estado.
         Te cuento un poco más del PH es un alquiler témpora hasta 3 persona, muy luminador, con patio, baños completos, muy buen lugar y está cerca al parque sarmiento.
             
-        `,datosGenerales:[{antiguedad:"10 años",estados:"bueno",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"32m",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"3x3",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"Arias",tipoPropiedad:"alquiler temporal"}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"completo",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"Saavedra",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]}],D=()=>{const r=document.querySelector(".contenido");r.innerHTML=`
+        `,datosGenerales:[{antiguedad:"10 años",estados:"bueno",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"32m",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"3x3",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"Arias",tipoPropiedad:"alquiler temporal"}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"completo",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"Saavedra",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Balbín 2800",imagenes:["balbin2800-1.png","balbin2800-2.png","balbin2800-3.png","balbin2800-4.png","balbin2800-5.png"],precio:"Consultar",descripcion:`Tenemos para ofrecer dos ambientes que estas ubicando en una buena zona muy cerca a lo que es el parque Saavedra, barrio Coghlan.         
+        `,datosGenerales:[{antiguedad:"",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Lomas del Mirador",imagenes:["","","","",""],precio:"Consultar",descripcion:`Te cuento un poco más de lo hermoso alquiler de dos ambientes que tenemos para ofrecer con balcón y sin expresa, frente la plaza del cañón y hermosa zona para vivir.    
+        `,datosGenerales:[{antiguedad:"",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]}],E=()=>{const r=document.querySelector(".contenido");r.innerHTML=`
 
 <div class="modal-leyes-container">
         <i class="btn-closemodal fas fa-close"></i>
@@ -276,80 +271,80 @@
 <div class="propiedades-banner-text-container">
         <h1>Alquileres</h1>
 </div>
-</div>`;const o=document.createElement("section");o.classList.add("section-alquileres");let s=0;F.forEach((e,t)=>{o.innerHTML+=`
+</div>`;const o=document.createElement("section");o.classList.add("section-alquileres");let l=0;z.forEach((i,m)=>{o.innerHTML+=`
     <div class="propiedades-img-container">
-    <img class="propiedades-img" img-index="${s}" src="./imagenes/${e.imagenes[0]}" alt="">
+    <img class="propiedades-img" img-index="${l}" src="./imagenes/${i.imagenes[0]}" alt="">
     <div class="imagenes-relacionadas">
         <div class="galeria-imagenes">
-            <img img-index="0" class="image-selected" src="./imagenes/${e.imagenes[0]}">
-            <img img-index="1" src="./imagenes/${e.imagenes[1]}">
-            <img img-index="2" src="./imagenes/${e.imagenes[2]}">
-            <img img-index="3" src="./imagenes/${e.imagenes[3]}">
-            <img img-index="4" src="./imagenes/${e.imagenes[4]}">
+            <img img-index="0" class="image-selected" src="./imagenes/${i.imagenes[0]}">
+            <img img-index="1" src="./imagenes/${i.imagenes[1]}">
+            <img img-index="2" src="./imagenes/${i.imagenes[2]}">
+            <img img-index="3" src="./imagenes/${i.imagenes[3]}">
+            <img img-index="4" src="./imagenes/${i.imagenes[4]}">
         </div>
     </div>
 </div>
 <div class="propiedades-texto-container">
     <div class="propiedades-title">
-        <p><span class="propiedad-localidad-span">${e.nombre} - <span class="precio-propiedades-span">${e.precio}</span></span></p>
+        <p><span class="propiedad-localidad-span">${i.nombre} - <span class="precio-propiedades-span">${i.precio}</span></span></p>
     </div>
-    <p class="propiedades-descripcion">${e.descripcion}</p>
-    <div class="datos" data-index=${s}">
+    <p class="propiedades-descripcion">${i.descripcion}</p>
+    <div class="datos" data-index=${l}">
         <ul class="datos-container datos-generales">
             <li class="datos-title">Datos Generales</li>
-            <li><strong>Antigüedad: </strong>${e.datosGenerales[0].antiguedad}</li>
-            <li><strong>Categoría: </strong>${e.datosGenerales[0].categoria}</li>
-            <li><strong>Entrada de servicio: </strong>${e.datosGenerales[0].entradaServicio}</li>
-            <li><strong>Estados: </strong>${e.datosGenerales[0].estados}</li>
-            <li><strong>Frente: </strong>${e.datosGenerales[0].frente}</li>
-            <li><strong>Garages: </strong>${e.datosGenerales[0].garages}</li>
-            <li><strong>Jardín fondo: </strong>${e.datosGenerales[0].jardinFondo}</li>
-            <li><strong>Jardín Frente</strong>${e.datosGenerales[0].jardinFrente}</li>
-            <li><strong>Lote: </strong>${e.datosGenerales[0].lote}</li>
-            <li><strong>Orientación: </strong>${e.datosGenerales[0].orientacion}</li>
-            <li><strong>Parrilla: </strong>${e.datosGenerales[0].parrilla}</li>
-            <li><strong>Patio: </strong>${e.datosGenerales[0].patio}</li>
-            <li><strong>Pileta: </strong>${e.datosGenerales[0].pileta}</li>
-            <li><strong>Quincho: </strong>${e.datosGenerales[0].quincho}</li>
-            <li><strong>Superficie cubierta: </strong>${e.datosGenerales[0].superficieCubierta}</li>
-            <li><strong>Superficie cubierta: </strong>${e.datosGenerales[0].superficieDescubierta}</li>
-            <li><strong>Superficie descubierta: </strong>${e.datosGenerales[0].techo}</li>
-            <li><strong>Terraza: </strong>${e.datosGenerales[0].terraza}</li>
-            <li><strong>Tipo de propiedad: </strong>${e.datosGenerales[0].tipoPropiedad}</li>
+            <li><strong>Antigüedad: </strong>${i.datosGenerales[0].antiguedad}</li>
+            <li><strong>Categoría: </strong>${i.datosGenerales[0].categoria}</li>
+            <li><strong>Entrada de servicio: </strong>${i.datosGenerales[0].entradaServicio}</li>
+            <li><strong>Estados: </strong>${i.datosGenerales[0].estados}</li>
+            <li><strong>Frente: </strong>${i.datosGenerales[0].frente}</li>
+            <li><strong>Garajes: </strong>${i.datosGenerales[0].garages}</li>
+            <li><strong>Jardín fondo: </strong>${i.datosGenerales[0].jardinFondo}</li>
+            <li><strong>Jardín Frente: </strong>${i.datosGenerales[0].jardinFrente}</li>
+            <li><strong>Lote: </strong>${i.datosGenerales[0].lote}</li>
+            <li><strong>Orientación: </strong>${i.datosGenerales[0].orientacion}</li>
+            <li><strong>Parrilla: </strong>${i.datosGenerales[0].parrilla}</li>
+            <li><strong>Patio: </strong>${i.datosGenerales[0].patio}</li>
+            <li><strong>Pileta: </strong>${i.datosGenerales[0].pileta}</li>
+            <li><strong>Quincho: </strong>${i.datosGenerales[0].quincho}</li>
+            <li><strong>Superficie cubierta: </strong>${i.datosGenerales[0].superficieCubierta}</li>
+            <li><strong>Superficie descubierta: </strong>${i.datosGenerales[0].superficieDescubierta}</li>
+            <li><strong>Techo: </strong>${i.datosGenerales[0].techo}</li>
+            <li><strong>Terraza: </strong>${i.datosGenerales[0].terraza}</li>
+            <li><strong>Tipo de propiedad: </strong>${i.datosGenerales[0].tipoPropiedad}</li>
 
         </ul>
         <ul class="datos-container datos-del-ambiente">
             <li class="datos-title">Datos del ambiente</li>
-            <li><strong>Hall: </strong>${e.datosAmbiente[0].hall}</li>
-            <li><strong>Living: </strong>${e.datosAmbiente[0].living}</li>
-            <li><strong>Cocina: </strong>${e.datosAmbiente[0].cocina}</li>
-            <li><strong>Escritorio: </strong>${e.datosAmbiente[0].escritorio}</li>
-            <li><strong>Toillete: </strong>${e.datosAmbiente[0].toillete}</li>
-            <li><strong>Baño: </strong>${e.datosAmbiente[0].baño}</li>
-            <li><strong>Dormitorio: </strong>${e.datosAmbiente[0].dormitorio}</li>
-            <li><strong>Balcón: </strong>${e.datosAmbiente[0].balcon}</li>
-            <li><strong>Dependencia de servicio: </strong>${e.datosAmbiente[0].depedenciaServicio}</li>
-            <li><strong>Dependencia de servicio: </strong>${e.datosAmbiente[0].hallIntimo}</li>
-            <li><strong>Office: </strong>${e.datosAmbiente[0].office}</li>
-            <li><strong>Lavadero: </strong>${e.datosAmbiente[0].lavadero}</li>
-            <li><strong>Barrio: </strong>${e.datosAmbiente[0].barrio}</li>
+            <li><strong>Hall: </strong>${i.datosAmbiente[0].hall}</li>
+            <li><strong>Living: </strong>${i.datosAmbiente[0].living}</li>
+            <li><strong>Cocina: </strong>${i.datosAmbiente[0].cocina}</li>
+            <li><strong>Escritorio: </strong>${i.datosAmbiente[0].escritorio}</li>
+            <li><strong>Toillete: </strong>${i.datosAmbiente[0].toillete}</li>
+            <li><strong>Baño: </strong>${i.datosAmbiente[0].baño}</li>
+            <li><strong>Dormitorio: </strong>${i.datosAmbiente[0].dormitorio}</li>
+            <li><strong>Balcón: </strong>${i.datosAmbiente[0].balcon}</li>
+            <li><strong>Dependencia de servicio: </strong>${i.datosAmbiente[0].depedenciaServicio}</li>
+            <li><strong>Hall intimo: </strong>${i.datosAmbiente[0].hallIntimo}</li>
+            <li><strong>Office: </strong>${i.datosAmbiente[0].office}</li>
+            <li><strong>Lavadero: </strong>${i.datosAmbiente[0].lavadero}</li>
+            <li><strong>Barrio: </strong>${i.datosAmbiente[0].barrio}</li>
             <li class="varios-li"><strong>varios</strong></li>
-            <li><strong>Tipo de piso: </strong>${e.datosAmbiente[0].tipoPiso}</li>
-            <li><strong>Calefacción: </strong>${e.datosAmbiente[0].calefaccion}</li>
-            <li><strong>Agua caliente: </strong>${e.datosAmbiente[0].aguaCaliente}</li>
-            <li><strong>Aire acondicionado: </strong>${e.datosAmbiente[0].aireAcondicionado}</li>
-            <li><strong>Teléfono: </strong>${e.datosAmbiente[0].telefono}</li>
+            <li><strong>Tipo de piso: </strong>${i.datosAmbiente[0].tipoPiso}</li>
+            <li><strong>Calefacción: </strong>${i.datosAmbiente[0].calefaccion}</li>
+            <li><strong>Agua caliente: </strong>${i.datosAmbiente[0].aguaCaliente}</li>
+            <li><strong>Aire acondicionado: </strong>${i.datosAmbiente[0].aireAcondicionado}</li>
+            <li><strong>Teléfono: </strong>${i.datosAmbiente[0].telefono}</li>
         </ul>
     </div>
     <p>Agradecemos su elección, esperamos respuestas suyas.</p>
     </div>
     </div>
-    `,s++});let l=document.createElement("div");l.classList.add("galeria-contenedor"),l.innerHTML=`
+    `,l++});let t=document.createElement("div");t.classList.add("galeria-contenedor"),t.innerHTML=`
     <div class="galeria-imagen-contenedor">
         <i class="btn-cerrar-galeria fas fa-close"></i>
         <img class="galeria-img" src="" >
     </div>
-`,r.appendChild(o),r.appendChild(l);const n=document.createElement("footer");n.classList.add("footer"),n.innerHTML=`
+`,r.appendChild(o),r.appendChild(t);const n=document.createElement("footer");n.classList.add("footer"),n.innerHTML=`
 <div class="footer-logo">
     <a href="index.html"><img class="logo-img" src="./imagenes/logo.png" alt=""></a>
         </div>
@@ -367,7 +362,7 @@
                 <li>11-3056-1228 /</li>
                 <li>15-6468-1227</li>
             </ul>
-        </div>`,r.appendChild(n),d(),m()},T=document.querySelector(".contenido"),I=()=>{T.innerHTML=`
+        </div>`,r.appendChild(n);const s=document.querySelectorAll(".datos")[1];s.style.display="none";const c=document.querySelectorAll(".datos")[2];document.querySelectorAll(".galeria-imagenes")[2].innerHTML="",document.querySelectorAll(".propiedades-img")[2].src="./imagenes/nodisponible.png",c.style.display="none",g(),u()},F=document.querySelector(".contenido"),T=()=>{F.innerHTML=`
     <section id="sobrenosotros" class="sobrenosotros">
     <div class="sobrenosotros-img-container">
         <img class="sobrenosotros-img" src="./Diseño/naomi-hebert-MP0bgaS_d1c-unsplash.jpg" alt="">
@@ -413,7 +408,7 @@
             </ul>
         </div>
     </footer>
-    `},H=document.querySelector(".contenido"),M=()=>{H.innerHTML=`
+    `},D=document.querySelector(".contenido"),I=()=>{D.innerHTML=`
     <div class="nuestros-servicios-section">
     <p>Nuestros servicios</p>
 
@@ -459,4 +454,4 @@
             </ul>
         </div>
     </footer>
-    `},p=document.querySelectorAll(".ul-list .li-item .li-a"),R=r=>{p.forEach(o=>{o.classList.remove("selected")}),r.classList.add("selected")};p.forEach(r=>{r.addEventListener("click",o=>{R(o.target),o.target.textContent==="Propiedades"?E():o.target.textContent==="Servicios"?M():o.target.textContent==="Sobre Nosotros"?I():o.target.textContent==="Alquileres"&&D()})});const B=()=>{const r=document.querySelector(".open-menu"),o=document.querySelector(".close-menu"),s=document.querySelector(".nav");r.addEventListener("click",()=>{s.style.display="flex"}),o.addEventListener("click",()=>{s.style.display="none"})};d();B();
+    `},b=document.querySelectorAll(".ul-list .li-item .li-a"),H=r=>{b.forEach(o=>{o.classList.remove("selected")}),r.classList.add("selected")};b.forEach(r=>{r.addEventListener("click",o=>{H(o.target),o.target.textContent==="Propiedades"?G():o.target.textContent==="Servicios"?I():o.target.textContent==="Sobre Nosotros"?T():o.target.textContent==="Alquileres"&&E()})});const M=()=>{const r=document.querySelector(".open-menu"),o=document.querySelector(".close-menu"),l=document.querySelector(".nav");r.addEventListener("click",()=>{l.style.display="flex"}),o.addEventListener("click",()=>{l.style.display="none"})};g();M();
