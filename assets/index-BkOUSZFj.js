@@ -53,7 +53,7 @@
         `,datosGenerales:[{antiguedad:"",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Bauness 2200",imagenes:["","","","",""],precio:"Consultar",descripcion:`Excelente 4 ambiente en el barrio villa Urquiza.
         Te cuento un poco mas sobre lo que tiene y lo que esta a los alrededores cuenta con cochera, dos baños, cocina, lavadero integrado, tres habitaciones, living, comedor y balcón.
         Frente a plaza Etcheverria.         
-        `,datosGenerales:[{antiguedad:"",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]}],m=()=>{const r=document.querySelector(".leyes"),o=document.querySelector(".modal-leyes-container");r.addEventListener("click",()=>{o.classList.add("modal-open")}),z(o)},z=r=>{document.querySelector(".btn-closemodal").addEventListener("click",()=>{r.classList.remove("modal-open")})},b=()=>{const r=document.querySelectorAll(".galeria-imagenes img"),o=document.querySelector(".galeria-contenedor"),l=document.querySelector(".galeria-img");r.forEach(n=>{n.addEventListener("click",s=>{let c=s.target.getAttribute("src");o.classList.remove("cerrar-galeria"),o.classList.add("abrir-galeria"),l.src=c,console.log(s.target)})}),document.querySelector(".btn-cerrar-galeria").addEventListener("click",()=>{o.classList.add("cerrar-galeria"),o.classList.remove("abrir-galeria")})},d=document.querySelector(".contenido"),G=()=>{d.innerHTML="",d.innerHTML=`
+        `,datosGenerales:[{antiguedad:"",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]}],m=()=>{const r=document.querySelector(".leyes"),o=document.querySelector(".modal-leyes-container");r.addEventListener("click",()=>{o.classList.add("modal-open")}),G(o)},G=r=>{document.querySelector(".btn-closemodal").addEventListener("click",()=>{r.classList.remove("modal-open")})},f=()=>{const r=document.querySelectorAll(".galeria-imagenes img"),o=document.querySelector(".galeria-contenedor"),l=document.querySelector(".galeria-img");r.forEach(n=>{n.addEventListener("click",s=>{let c=s.target.getAttribute("src");o.classList.remove("cerrar-galeria"),o.classList.add("abrir-galeria"),l.src=c,console.log(s.target)})}),document.querySelector(".btn-cerrar-galeria").addEventListener("click",()=>{o.classList.add("cerrar-galeria"),o.classList.remove("abrir-galeria")})},d=document.querySelector(".contenido"),E=()=>{d.innerHTML="",d.innerHTML=`
 
 <div class="modal-leyes-container">
         <i class="btn-closemodal fas fa-close"></i>
@@ -81,7 +81,11 @@
 <div class="propiedades-banner-text-container">
         <h1>Propiedades</h1>
 </div>
-</div>`;const r=document.createElement("section");r.classList.add("section-propiedades");let o=0;e.forEach((a,B)=>{r.innerHTML+=`
+</div>`;const r=document.createElement("section");r.classList.add("section-propiedades");let o=0;e.forEach((a,M)=>{r.innerHTML+=`
+    <div class="propiedades-texto-container">
+    <div class="propiedades-title">
+        <p><span class="propiedad-localidad-span">${a.nombre} - <span class="precio-propiedades-span">${a.precio}</span></span></p>
+    </div>
     <div class="propiedades-img-container">
     <img class="propiedades-img" img-index="${o}" src="./imagenes/${a.imagenes[0]}" alt="">
     <div class="imagenes-relacionadas">
@@ -94,10 +98,7 @@
         </div>
     </div>
 </div>
-<div class="propiedades-texto-container">
-    <div class="propiedades-title">
-        <p><span class="propiedad-localidad-span">${a.nombre} - <span class="precio-propiedades-span">${a.precio}</span></span></p>
-    </div>
+
     <p class="propiedades-descripcion">${a.descripcion}</p>
     <div class="datos" data-index=${o}">
         <ul class="datos-container datos-generales">
@@ -239,14 +240,14 @@
     <img img-index="5" src="./imagenes/${e[1].imagenes[5]}">
     <img img-index="6" src="./imagenes/${e[1].imagenes[6]}">
     <img img-index="6" src="./imagenes/${e[1].imagenes[7]}">
-`;const p=document.querySelectorAll(".datos")[17],v=document.querySelectorAll(".propiedades-img")[17],y=document.querySelectorAll(".galeria-imagenes")[17];v.src="./imagenes/nodisponible.png",p.style.display="none",y.innerHTML="";const h=document.querySelectorAll(".datos")[19];h.style.display="none";const A=document.querySelectorAll(".datos")[20];document.querySelectorAll(".galeria-imagenes")[20].innerHTML="",document.querySelectorAll(".propiedades-img")[20].src="./imagenes/vidal1.png",A.style.display="none";const x=document.querySelectorAll(".datos")[21];document.querySelectorAll(".galeria-imagenes")[21].innerHTML="",document.querySelectorAll(".propiedades-img")[21].src="./imagenes/nodisponible.png",x.style.display="none";const $=document.querySelectorAll(".datos")[14];$.style.display="none",document.querySelectorAll(".propiedades-img")[7].src="./imagenes/nodisponible.png",document.querySelectorAll(".galeria-imagenes")[7].innerHTML="";const C=document.querySelectorAll(".propiedades-img")[8],S=document.querySelectorAll(".galeria-imagenes")[8];S.innerHTML="",C.src="./imagenes/josehernandez1.png";const q=document.querySelectorAll(".propiedades-img")[11];q.src="./imagenes/saavedra1.png";const P=document.querySelectorAll(".galeria-imagenes")[11],L=document.querySelectorAll(".datos")[11];P.innerHTML="",L.style.display="none",document.querySelectorAll(".propiedades-img")[12].src="./imagenes/congreso1.png",document.querySelectorAll(".galeria-imagenes")[12].innerHTML="";const u=document.querySelectorAll(".datos")[12];u.style.display="none",u.innerHTML="";const j=document.querySelectorAll(".datos")[16];j.style.display="none",m(),b()};document.querySelector(".contenido");const E=[{nombre:"Arias 4800",imagenes:["arias1.png","arias2.png","arias3.png","arias4.png","arias5.png","",""],precio:"Consultar",descripcion:`Tenemos para mostrarle un PH de muy buen estado.
+`;const p=document.querySelectorAll(".datos")[17],y=document.querySelectorAll(".propiedades-img")[17],h=document.querySelectorAll(".galeria-imagenes")[17];y.src="./imagenes/nodisponible.png",p.style.display="none",h.innerHTML="";const A=document.querySelectorAll(".datos")[19];A.style.display="none";const x=document.querySelectorAll(".datos")[20];document.querySelectorAll(".galeria-imagenes")[20].innerHTML="",document.querySelectorAll(".propiedades-img")[20].src="./imagenes/vidal1.png",x.style.display="none";const $=document.querySelectorAll(".datos")[21];document.querySelectorAll(".galeria-imagenes")[21].innerHTML="",document.querySelectorAll(".propiedades-img")[21].src="./imagenes/nodisponible.png",$.style.display="none";const C=document.querySelectorAll(".datos")[14];C.style.display="none",document.querySelectorAll(".propiedades-img")[7].src="./imagenes/nodisponible.png",document.querySelectorAll(".galeria-imagenes")[7].innerHTML="";const S=document.querySelectorAll(".propiedades-img")[8],q=document.querySelectorAll(".galeria-imagenes")[8];q.innerHTML="",S.src="./imagenes/josehernandez1.png";const P=document.querySelectorAll(".propiedades-img")[11];P.src="./imagenes/saavedra1.png";const L=document.querySelectorAll(".galeria-imagenes")[11],j=document.querySelectorAll(".datos")[11];L.innerHTML="",j.style.display="none",document.querySelectorAll(".propiedades-img")[12].src="./imagenes/congreso1.png",document.querySelectorAll(".galeria-imagenes")[12].innerHTML="";const u=document.querySelectorAll(".datos")[12];u.style.display="none",u.innerHTML="";const z=document.querySelectorAll(".datos")[16];z.style.display="none",m(),f()};document.querySelector(".contenido");const F=[{nombre:"Arias 4800",imagenes:["arias1.png","arias2.png","arias3.png","arias4.png","arias5.png","",""],precio:"Consultar",descripcion:`Tenemos para mostrarle un PH de muy buen estado.
         Te cuento un poco más del PH es un alquiler témpora hasta 3 persona, muy luminador, con patio, baños completos, muy buen lugar y está cerca al parque sarmiento.
             
         `,datosGenerales:[{antiguedad:"10 años",estados:"bueno",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"32m",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"3x3",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"Arias",tipoPropiedad:"alquiler temporal"}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"completo",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"Saavedra",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Balbín 2800",imagenes:["balbin2800-1.png","balbin2800-2.png","balbin2800-3.png","balbin2800-4.png","balbin2800-5.png"],precio:"Consultar",descripcion:`Tenemos para ofrecer dos ambientes que estas ubicando en una buena zona muy cerca a lo que es el parque Saavedra, barrio Coghlan.         
         `,datosGenerales:[{antiguedad:"",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Lomas del Mirador",imagenes:["","","","",""],precio:"Consultar",descripcion:`Te cuento un poco más de lo hermoso alquiler de dos ambientes que tenemos para ofrecer con balcón y sin expresa, frente la plaza del cañón y hermosa zona para vivir.    
         `,datosGenerales:[{antiguedad:"",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]},{nombre:"Lomas del Mirador",imagenes:["","","","",""],precio:"Consultar",descripcion:`Tenemos para mostrarle un hermoso alquiler de tres ambientes con patio mucho espacio,
         hermosa zona estas muy buen ubicada al frente de la plaza de cañón.     
-        `,datosGenerales:[{antiguedad:"",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]}],F=()=>{const r=document.querySelector(".contenido");r.innerHTML=`
+        `,datosGenerales:[{antiguedad:"",estados:"",categoria:"",frente:"",techo:"",lote:"",superficieCubierta:"",superficieDescubierta:"",jardinFrente:"",jardinFondo:"",patio:"",entradaServicio:"",garages:"",terraza:"",galeria:"",quincho:"",parrilla:"",pileta:"",orientacion:"",tipoPropiedad:""}],datosAmbiente:[{hall:"",living:"",cocina:"",escritorio:"",toillete:"",baño:"",dormitorio:"",balcon:"",depedenciaServicio:"",playRoom:"",hallIntimo:"",office:"",lavadero:"",barrio:"",tipoPiso:"",calefaccion:"",aguaCaliente:"",aireAcondicionado:"",telefono:""}]}],D=()=>{const r=document.querySelector(".contenido");r.innerHTML=`
 
 <div class="modal-leyes-container">
         <i class="btn-closemodal fas fa-close"></i>
@@ -274,7 +275,7 @@
 <div class="propiedades-banner-text-container">
         <h1>Alquileres</h1>
 </div>
-</div>`;const o=document.createElement("section");o.classList.add("section-alquileres");let l=0;E.forEach((i,p)=>{o.innerHTML+=`
+</div>`;const o=document.createElement("section");o.classList.add("section-alquileres");let l=0;F.forEach((i,p)=>{o.innerHTML+=`
     <div class="propiedades-img-container">
     <img class="propiedades-img" img-index="${l}" src="./imagenes/${i.imagenes[0]}" alt="">
     <div class="imagenes-relacionadas">
@@ -365,7 +366,7 @@
                 <li>11-3056-1228 /</li>
                 <li>15-6468-1227</li>
             </ul>
-        </div>`,r.appendChild(n);const s=document.querySelectorAll(".datos")[1];s.style.display="none";const c=document.querySelectorAll(".datos")[2];document.querySelectorAll(".galeria-imagenes")[2].innerHTML="",document.querySelectorAll(".propiedades-img")[2].src="./imagenes/nodisponible.png",c.style.display="none";const g=document.querySelectorAll(".datos")[3];document.querySelectorAll(".galeria-imagenes")[3].innerHTML="",document.querySelectorAll(".propiedades-img")[3].src="./imagenes/nodisponible.png",g.style.display="none",m(),b()},D=document.querySelector(".contenido"),T=()=>{D.innerHTML=`
+        </div>`,r.appendChild(n);const s=document.querySelectorAll(".datos")[1];s.style.display="none";const c=document.querySelectorAll(".datos")[2];document.querySelectorAll(".galeria-imagenes")[2].innerHTML="",document.querySelectorAll(".propiedades-img")[2].src="./imagenes/nodisponible.png",c.style.display="none";const g=document.querySelectorAll(".datos")[3];document.querySelectorAll(".galeria-imagenes")[3].innerHTML="",document.querySelectorAll(".propiedades-img")[3].src="./imagenes/nodisponible.png",g.style.display="none",m(),f()},T=document.querySelector(".contenido"),b=()=>{T.innerHTML=`
     <section id="sobrenosotros" class="sobrenosotros">
     <div class="sobrenosotros-img-container">
         <img class="sobrenosotros-img" src="./Diseño/naomi-hebert-MP0bgaS_d1c-unsplash.jpg" alt="">
@@ -391,6 +392,40 @@
             </div>
     </section>
 
+    <div class="nuestros-servicios-section">
+    <p>Nuestros servicios</p>
+
+    <ul class="sobrenosotros-servicios-list">
+        <div>
+            <span>Jurídicos</span>
+            <img src="./imagenes/logo.png" />
+        </div>
+        <li>1. Asesoría legal en derecho de propiedad.</li>
+        <li>2. Asesoría jurídica en derecho civil, comercial, laboral, ocupacional, administrativo, familia.</li>
+        <li>3. Elaboración de contratos para todo tipo de negocios.</li>
+    </ul>
+    <ul class="sobrenosotros-servicios-list">
+        <div>
+            <span>Inmobiliarios</span>
+            <img src="./imagenes/logo.png" />
+        </div>
+        <li>1. Operaciones inmobiliarias.</li>
+        <li>2. Tasaciones.</li>
+        <li>3. Adminstración de alquileres.</li>
+        <li>4. Administración de consorcios.</li>
+        <li>5. Inversiones.</li>
+    </ul>
+    <ul class="sobrenosotros-servicios-list">
+        <div>
+            <span>Contables</span>
+            <img src="./imagenes/logo.png" />
+        </div>
+        <li>1. Servicios contables.</li>
+        <li>2. Préstamos personales.</li>
+        <li>3. Préstamos hipotecarios.</li>
+    </ul>
+</div>
+
     <footer class="footer">
         <div class="footer-logo">
             <a href="index.html"><img class="logo-img" src="./imagenes/logo.png" alt="syeconsultora logo"></a>
@@ -411,50 +446,4 @@
             </ul>
         </div>
     </footer>
-    `},I=document.querySelector(".contenido"),H=()=>{I.innerHTML=`
-    <div class="nuestros-servicios-section">
-    <p>Nuestros servicios</p>
-
-    <ul class="sobrenosotros-servicios-list">
-        <span>Jurídicos</span>
-        <li>1. Asesoría legal en derecho de propiedad.</li>
-        <li>2. Asesoría jurídica en derecho civil, comercial, laboral, ocupacional, administrativo, familia.</li>
-        <li>3. Elaboración de contratos para todo tipo de negocios.</li>
-    </ul>
-    <ul class="sobrenosotros-servicios-list">
-        <span>Inmobiliarios</span>
-        <li>1. Operaciones inmobiliarias.</li>
-        <li>2. Tasaciones.</li>
-        <li>3. Adminstración de alquileres.</li>
-        <li>4. Administración de consorcios.</li>
-        <li>5. Inversiones.</li>
-    </ul>
-    <ul class="sobrenosotros-servicios-list">
-        <span>Contables</span>
-        <li>1. Servicios contables.</li>
-        <li>2. Préstamos personales.</li>
-        <li>3. Préstamos hipotecarios.</li>
-    </ul>
-</div>
-
-<footer class="footer">
-        <div class="footer-logo">
-            <a href="index.html"><img class="logo-img" src="./imagenes/logo.png" alt="syeconsultora logo"></a>
-        </div>
-        <div class="servicios-footer-container">
-            <ul class="footer-ul informacion-footer-ul">
-                <li class="footer-seccion-text">Información</li>
-                <li class="leyes">Leyes</li>
-                <li>CUCICBA Matrícula 5603</li>
-            </ul>
-            <ul class="footer-ul contacto-footer-ul">
-                <li class="footer-seccion-text">Contacto</li>
-                <li>Calle: Avda. Ricardo Balbi 3136 - C.A.B.A.</li>
-                <li>Email: info@syeconsultora.com.ar</li>
-                <li>Número Telefónico: (011) 4547-1480 /</li>
-                <li>11-3056-1228 /</li>
-                <li>15-6468-1227</li>
-            </ul>
-        </div>
-    </footer>
-    `},f=document.querySelectorAll(".ul-list .li-item .li-a"),M=r=>{f.forEach(o=>{o.classList.remove("selected")}),r.classList.add("selected")};f.forEach(r=>{r.addEventListener("click",o=>{M(o.target),o.target.textContent==="Propiedades"?G():o.target.textContent==="Servicios"?H():o.target.textContent==="Sobre Nosotros"?T():o.target.textContent==="Alquileres"&&F()})});const R=()=>{const r=document.querySelector(".open-menu"),o=document.querySelector(".close-menu"),l=document.querySelector(".nav");r.addEventListener("click",()=>{l.style.display="flex"}),o.addEventListener("click",()=>{l.style.display="none"})};m();R();
+    `};document.querySelector(".contenido");const v=document.querySelectorAll(".ul-list .li-item .li-a"),H=r=>{v.forEach(o=>{o.classList.remove("selected")}),r.classList.add("selected")};v.forEach(r=>{r.addEventListener("click",o=>{H(o.target),o.target.textContent==="Propiedades"?E():o.target.textContent==="Servicios"||o.target.textContent==="Sobre Nosotros"?b():o.target.textContent==="Alquileres"&&D()})});const I=()=>{const r=document.querySelector(".open-menu"),o=document.querySelector(".close-menu"),l=document.querySelector(".nav");r.addEventListener("click",()=>{l.style.display="flex"}),o.addEventListener("click",()=>{l.style.display="none"})};m();I();
