@@ -82,7 +82,6 @@
         <h1>Propiedades</h1>
 </div>
 </div>`;const r=document.createElement("section");r.classList.add("section-propiedades");let o=0;e.forEach((a,M)=>{r.innerHTML+=`
-    <div class="propiedades-texto-container">
     <div class="propiedades-title">
         <p><span class="propiedad-localidad-span">${a.nombre} - <span class="precio-propiedades-span">${a.precio}</span></span></p>
     </div>
@@ -98,7 +97,7 @@
         </div>
     </div>
 </div>
-
+<div class="propiedades-texto-container">
     <p class="propiedades-descripcion">${a.descripcion}</p>
     <div class="datos" data-index=${o}">
         <ul class="datos-container datos-generales">
