@@ -275,6 +275,9 @@
         <h1>Alquileres</h1>
 </div>
 </div>`;const o=document.createElement("section");o.classList.add("section-alquileres");let l=0;F.forEach((i,p)=>{o.innerHTML+=`
+    <div class="propiedades-title">
+        <p><span class="propiedad-localidad-span">${i.nombre} - <span class="precio-propiedades-span">${i.precio}</span></span></p>
+    </div>
     <div class="propiedades-img-container">
     <img class="propiedades-img" img-index="${l}" src="./imagenes/${i.imagenes[0]}" alt="">
     <div class="imagenes-relacionadas">
@@ -288,9 +291,6 @@
     </div>
 </div>
 <div class="propiedades-texto-container">
-    <div class="propiedades-title">
-        <p><span class="propiedad-localidad-span">${i.nombre} - <span class="precio-propiedades-span">${i.precio}</span></span></p>
-    </div>
     <p class="propiedades-descripcion">${i.descripcion}</p>
     <div class="datos" data-index=${l}">
         <ul class="datos-container datos-generales">
